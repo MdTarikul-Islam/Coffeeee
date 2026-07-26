@@ -5,7 +5,11 @@ public class Student {
     public String id;   //instance variable
     
     //access_modifier void/return_type methodName(parameters)
-    public void m1(){ //instance method
-        System.out.println("M1 is working");
+    public void showDetails(){ //instance method
+        System.out.println(name+" "+id);
+    }
+    
+    public void standUp(){
+        System.out.println(name+" is now standing");
     }
 }

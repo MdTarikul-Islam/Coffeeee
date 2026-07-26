@@ -9,9 +9,11 @@ public class Tester {
         s1.id="11";
         s2.name="Carol";
         s2.id="33";
-        s1.m1();
-        System.out.println(s1.name+" "+s1.id);
-        System.out.println(s2.name+" "+s2.id);
+        s1.standUp();
+        s2.standUp();
+        s1.showDetails();
+        System.out.println("=======");
+        s2.showDetails();
         
     }
 }
