@@ -3,4 +3,9 @@ package taw;
 public class Student {
     public String name; //instance variable
     public String id;   //instance variable
+    
+    //access_modifier void/return_type methodName(parameters)
+    public void m1(){ //instance method
+        System.out.println("M1 is working");
+    }
 }
